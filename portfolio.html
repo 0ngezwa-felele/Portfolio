@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" media="screen and (max-width:800px)" href="./tablet.css">
     <link rel="stylesheet" media="screen  and (min-width: 320px) and (max-width:720px)" href="./phone.css">
+    <link rel="stylesheet" href="./tabs.css">
     <style>
         
     </style>
@@ -24,7 +25,7 @@
       </ul>
       
     </nav>
-  <div id="picture">
+      <div id="picture">
     <img src="./FB_IMG_16185673651354822.jpg" alt="">
 
 </div>
@@ -39,84 +40,88 @@
             </button>
         </div>
     <!-- </section> -->
-    <section id="services">
-        <h1 class="headings">overview</h1>
-        <div class="row">
-            <div class="box">
-                <h1 class="headngs">About</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Pellentesque nec nam aliquam sem et tortor consequat id. 
-                    Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
-                    Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
-                    Ut faucibus pulvinar elementum integer enim neque volutpat. 
-                    Pellentesque diam volutpat commodo sed egestas egestas. 
-                    Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
-                    Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
-                    Metus aliquam eleifend mi in. 
-                    Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
-                    Lobortis mattis aliquam faucibus purus in massa. 
-                    Morbi tristique senectus et netus et. Sed id semper risus in. 
-                    Ut sem nulla pharetra diam sit. 
-                    Nibh venenatis cras sed felis eget velit aliquet.
-                    </p>
-
-            </div>
-            <div class="box">
-                <h1 class="headngs">Front End</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Pellentesque nec nam aliquam sem et tortor consequat id. 
-                    Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
-                    Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
-                    Ut faucibus pulvinar elementum integer enim neque volutpat. 
-                    Pellentesque diam volutpat commodo sed egestas egestas. 
-                    Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
-                    Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
-                    Metus aliquam eleifend mi in. 
-                    Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
-                    Lobortis mattis aliquam faucibus purus in massa. 
-                    Morbi tristique senectus et netus et. Sed id semper risus in. 
-                    Ut sem nulla pharetra diam sit. 
-                    Nibh venenatis cras sed felis eget velit aliquet.
-                    </p>
-
-            </div>
-            <div class="box">
-                <h1 class="headngs">Back End</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Pellentesque nec nam aliquam sem et tortor consequat id. 
-                    Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
-                    Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
-                    Ut faucibus pulvinar elementum integer enim neque volutpat. 
-                    Pellentesque diam volutpat commodo sed egestas egestas. 
-                    Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
-                    Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
-                    Metus aliquam eleifend mi in. 
-                    Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
-                    Lobortis mattis aliquam faucibus purus in massa. 
-                    Morbi tristique senectus et netus et. Sed id semper risus in. 
-                    Ut sem nulla pharetra diam sit. 
-                    Nibh venenatis cras sed felis eget velit aliquet.
-                    </p>
-
-            </div>
-        
-        
+    <div class= alltabs>
+        <input type="radio" id="tabHome" name="alltabs" checked="checked">
+        <label for="tabHome">Home</label>
+        <div class= "tab">
+            <h2>Home</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
+                Ut faucibus pulvinar elementum integer enim neque volutpat. 
+                Pellentesque diam volutpat commodo sed egestas egestas. 
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam.</p> 
+                               
         </div>
 
-    </section>
-    <section id="contact">
-        <h1 class="headings">CONTACT ME</h1>
-        <form action="" class="form">
-            <input type="text" name="Name" class="input" placeholder="Enter Your Name">
-            <input type="Email" name="Email" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-            <input type="submit" value="SEND" id="send">
-        </form>
+            <input type="radio" id="tabAbout" name="alltabs" checked="checked">
+        <label for="tabAbout">About</label>
+        <div class= "tab">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant.</p> 
+                              
+        </div>
+            <input type="radio" id="tabFront End" name="alltabs" checked="checked">
+            <label for="tabFront End">Front End</label>
+        <div class= "tab">
+            <h2>Front End</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
+                Ut faucibus pulvinar elementum integer enim neque volutpat. 
+                Pellentesque diam volutpat commodo sed egestas egestas. 
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
+                Metus aliquam eleifend mi in. 
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
+                Lobortis mattis aliquam faucibus purus in massa. 
+                Morbi tristique senectus et netus et. Sed id semper risus in. 
+                Ut sem nulla pharetra diam sit. 
+                Nibh venenatis cras sed felis eget velit aliquet.
+               </p>
+        </div>
 
-    </section>
+        <input type="radio" id="tabBack End" name="alltabs" checked="checked">
+        <label for="tabBack End">Back End</label>
+        <div class= "tab">
+            <h2>Back End</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
+                Ut faucibus pulvinar elementum integer enim neque volutpat. 
+                Pellentesque diam volutpat commodo sed egestas egestas. 
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
+                Metus aliquam eleifend mi in. 
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. </p>
+
+               
+        </div>
+
+        <input type="radio" id="tabContact Me" name="alltabs" checked="checked">
+        <label for="tabContact Me">Contact Me</label>
+        <div class= "tab">
+            <h2>Contact Me</h2>
+            <p><form action="" class="form">
+                <input type="text" name="Name" class="input" placeholder="Enter Your Name">
+                <input type="Email" name="Email" class="input" placeholder="Enter Your Email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="SEND" id="send">
+            </form></p>
+        </div>
+
+
+    </div>
+    
 
     <!-- about section -->
     
