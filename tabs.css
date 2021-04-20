@@ -10,15 +10,33 @@
 }
 .alltabs label{
     padding: 15px;
-    background: blanchedalmond;
+    background: white;
     font-weight: bold;
+    border-style: ridge;
+    border-radius: 15px;
+}
+.alltabs label:hover{
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 45, 160);
 }
 .alltabs .tab{
     width: 100%;
-    background: wheat;
+    /* background:wheat; */
     order: 1;
     display: none;
+    background: linear-gradient(to top,rgb(225,45,45)50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+    border-radius: 15px;
 
+}
+.alltabs .tab:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
 }
 .alltabs .tab h2{
     font-size: 3em;
@@ -27,7 +45,7 @@
     display: block;
 }
 .alltabs input[type="radio"]:checked + label{
-    background: wheat;
+    background:wheat;
 }
 
 
