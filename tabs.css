@@ -3,49 +3,39 @@
     flex-wrap: wrap;
     max-width: 600px;
     margin: 50px auto;
-    padding: 5px;
+    padding: 25px;
 }
 .alltabs input[type="radio"]{
     display: none;
+    
 }
 .alltabs label{
-    padding: 15px;
-    background: white;
+    padding: 25px;
+    background: blanchedalmond;
     font-weight: bold;
     border-style: ridge;
     border-radius: 15px;
-}
-.alltabs label:hover{
-    background-position: left bottom;
-    color: black;
-    border: none;
-    box-shadow: 0 0 20px rgb(255, 45, 160);
+    margin-left: 25px;
+
 }
 .alltabs .tab{
     width: 100%;
-    /* background:wheat; */
+    padding: 20px;
+    background: white;
     order: 1;
     display: none;
-    background: linear-gradient(to top,rgb(225,45,45)50%, white 50%);
-    background-size: 100% 200%;
-    transition: all .8s;
     border-radius: 15px;
-
+    margin-left: 25px;
 }
-.alltabs .tab:hover{
-    background-position: left bottom;
-    color: white;
-    border: none;
-    box-shadow: 0 0 20px rgb(255,45,45);
-}
-.alltabs .tab h2{
+.alltabs .tabs h2{
     font-size: 3em;
+
 }
 .alltabs input[type="radio"]:checked + label + .tab{
     display: block;
 }
 .alltabs input[type="radio"]:checked + label{
-    background:wheat;
+    background: white;
 }
 
 
