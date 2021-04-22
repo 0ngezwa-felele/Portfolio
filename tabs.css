@@ -37,5 +37,15 @@
 .alltabs input[type="radio"]:checked + label{
     background: white;
 }
+.TDD a , .Basic_web a{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color:burlywood;
+    padding: 10px;
+}
+.TDD{
+    padding: 10px;
+}
 
 
